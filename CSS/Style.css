@@ -1,0 +1,165 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,100&family=Lalezar&family=Montserrat:wght@100&family=Poppins:wght@300;400;500;900&family=Red+Hat+Display&family=Roboto:wght@100&display=swap');
+
+/***** All ******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Poppin {
+  font-family: 'poppins', sans-serif !important;
+
+}
+body {
+  background-color: #01141d;
+  background: linear-gradient(160deg, #01141d 42%, #80D0C7 92%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-size: 900% 900%;
+  height: 100vh;
+  color: #ffff;
+  animation: changeback 18s infinite;
+  animation-timing-function: 15s;
+  height: 100vh;
+}
+body .div{
+  color: #ffffff;
+}
+@keyframes changeback {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+
+/***** Header Section *****/
+.navbar-brand {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.navbar-brand:hover {
+  text-shadow: -2px 3px 1px rgba(100, 100, 192, 0.61);
+  color: rgb(255, 255, 255);
+}
+.navbar-nav a {
+  color: rgb(43, 153, 226);
+  margin: 0 10px;
+  font-weight: 650;
+}
+.navbar-nav a:hover { 
+  color: floralwhite;
+  
+}
+.navbar-nav a:active{
+  color: #ffffff;
+}
+button.nav-btn{
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+button.nav-btn:hover{
+  border: 1px solid #ffffff;
+  background: rgb(43, 153, 226) ;
+}
+
+@media screen and (max-width:992px) {
+ .offcanvas {
+  background-color: #01141d;
+  background-image: linear-gradient(315deg, #01141d 17%, #80D0C7 78%);
+  border-radius: 15px;
+  
+}
+}
+
+.offcanvas ul{
+direction: rtl;
+}
+.btn-close{
+  background-color: #008bf8;
+  border: 1px solid #01141d ;
+  border-radius: 50%;
+  font-size: 10px;
+  
+}
+.OffcanvasLine{
+  border: 1px solid;
+}
+.Socialas{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20%;
+
+}
+.Socialas svg{
+ color: #01141d;
+ width: 25px;
+ height: 25px;
+}
+.Socialas a{
+  padding: 0 10px;
+}
+.Socialas svg:hover{
+ color: #008bf8;
+}
+/***** Body Section  *****/
+.home {
+  margin-top: 150px;
+}
+
+.home img {
+  
+  border:2px solid;
+  height: auto;
+  opacity: 0.7;
+  border-radius: 15px;
+  top: 170px; 
+   background-color: transparent;
+  }
+img:hover{
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(202, 200, 200, 0.25);
+}
+.home h2 {
+  color: rgb(43, 153, 226);
+}
+.intro{
+  text-justify: auto;
+  margin-top: 2.5rem;
+}
+button.btn{
+color: #ffffff;
+background: rgb(43, 153, 226);
+font-size: 18px;
+font-weight: 300%;
+}
+button.btn:hover{
+background: #01141d;
+  }
+/* Skill Section */
+.skill-cards{
+  font-size: large;
+  margin: 15px 10px;
+  font-weight: 500;
+  position: relative;
+  width: 120px;
+  height: 65px;
+  background-color: transparent;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, .5);
+  backdrop-filter: blur(22.5rem);
+}
